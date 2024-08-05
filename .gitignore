@@ -1,0 +1,6 @@
+cypress/videos
+node_modules
+cypress.env.json
+cypress/screenshots
+cypress/downloads
+README.md
