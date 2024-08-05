@@ -17,19 +17,13 @@ la selección y reproducción de una película de terror en Netflix.
   - SeleccionarPelicula.ts: Implementación de los pasos de Gherkin utilizando Cypress y Page Objects.
 - **config**
   - Usuarios.ts: Archivo que contiene las credenciales del usuario.
+  - 
 ## Comandos para ejecutar en consola
 Abre Cypress en modo interactivo
-
-bash
 npm run cypress:open
 
-
 Ejecuta las pruebas en modo headless.
-
-bash
 npm run cypress:run
 
 Limpia los reportes anteriores, ejecuta las pruebas y genera un nuevo reporte.
-
-bash
 npm run test
