@@ -20,21 +20,12 @@ export class netflixpage extends classPage{
     }
 
     ////METODOS///
-
     public goToUrl(url: string){
         this.visit(url)
     }
 
     public seePage(screen: string){
         this.view(screen)
-    }
-
-    public goToClickFielEmail(){
-        this.goToClick(this.elements.email)
-    }
-
-    public goToClickFielPassword(){
-        this.goToClick(this.elements.password)
     }
 
     public goToClickInTheProfileUsers(){

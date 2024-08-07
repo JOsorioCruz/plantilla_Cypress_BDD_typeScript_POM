@@ -6,18 +6,36 @@ la selección y reproducción de una película de terror en Netflix.
 
 ## Estructura del Proyecto
 
-### 1. Estructura de Archivos
+```
+├── .idea
+├── cypress
+│ ├── e2e
+│ │ ├── features
+│ │ │ └── netflix.feature
+│ │ ├── fixtures
+│ │ └── support
+│ │ └── config
+│ │ └── Usuarios.ts
+│ ├── pageObject
+│ │ ├── interfaces.ts
+│ │ ├── netflixPage.ts
+│ │ └── selectPage.ts
+│ └── stepsDefinition
+│ ├── netflix.ts
+│ ├── commands.ts
+│ └── e2e.ts
+├── node_modules
+├── .gitignore
+├── cucumber-html-report.js
+├── cypress.config.ts
+├── Ejecutables.md
+├── package.json
+├── package-lock.json
+├── README.md
+└── tsconfig.json
+```
 
-- **pageObject**
-  - NetflixPage.ts: Clase que define los elementos y métodos para interactuar con la página de Netflix.
-- **interfaces**
-  - SelectionElements.ts: Define la interfaz para los elementos de selección.
-- **e2e**
-  - SeleccionarPelicula.feature: Archivo de características en Gherkin para definir el escenario de prueba.
-  - SeleccionarPelicula.ts: Implementación de los pasos de Gherkin utilizando Cypress y Page Objects.
-- **config**
-  - Usuarios.ts: Archivo que contiene las credenciales del usuario.
-  - 
+
 ## Comandos para ejecutar en consola
 Abre Cypress en modo interactivo
 npm run cypress:open
